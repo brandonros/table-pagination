@@ -1,0 +1,28 @@
+{
+  "name": "table-pagination",
+  "version": "1.0.0",
+  "description": "SQLite + Express API for table pagination",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "WORKING_DIRECTORY='/Users/brandonros/Desktop/table-pagination' PORT=3000 node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonros/table-pagination.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonros/table-pagination/issues"
+  },
+  "homepage": "https://github.com/brandonros/table-pagination#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "camelcase": "^5.0.0",
+    "camelcase-keys": "^4.2.0",
+    "express": "^4.16.3",
+    "sqlite": "^3.0.0",
+    "squel": "^5.12.2",
+    "to-snake-case": "^1.0.0"
+  }
+}
